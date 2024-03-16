@@ -188,14 +188,15 @@ if __name__ == '__main__':
     app.run_server(debug = True) 
 
 ## The Dashboard
-![image](https://github.com/Faiqua-github/Covid-19-Impact-Analysis/assets/142328196/fb15c4d2-79ba-4674-b64b-3167eec3c22e)
-
-## Comodities Options
 ![image](https://github.com/Faiqua-github/Covid-19-Impact-Analysis/assets/142328196/83819296-f4ff-4189-bdba-75d94f67106d)
 
+## Comodities Options
+![image](https://github.com/Faiqua-github/Covid-19-Impact-Analysis/assets/142328196/7e16b580-4ea7-4421-95c3-6b49d3d91baf)
+
 ## Zones Options
-![image](https://github.com/Faiqua-github/Covid-19-Impact-Analysis/assets/142328196/f6cab73e-5bef-4874-bbfc-6df4c5c65e1b)
+![image](https://github.com/Faiqua-github/Covid-19-Impact-Analysis/assets/142328196/aeb79c35-8b63-465d-ad01-e3173eaacaa9)
 
 ## Hospitalized, Deceased, Recovered Option in all states
-![image](https://github.com/Faiqua-github/Covid-19-Impact-Analysis/assets/142328196/827f16d1-5736-4d73-a1fe-2777ad349023)
+![image](https://github.com/Faiqua-github/Covid-19-Impact-Analysis/assets/142328196/90059ce9-32d0-4539-bc24-97850330fd6d)
+
 
