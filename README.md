@@ -1,6 +1,6 @@
 # Covid-19-Impact-Analysis
 
-# Code for Building Dashboard using Python Dash Libruary
+### Code for Building Dashboard using Python Dash Libruary
 
 import numpy as np 
 import pandas as pd 
@@ -48,14 +48,14 @@ options3=[
       {'label':'Orange Zone','value':'Orange Zone'} 
     ]
  
- # to host the website in local server
+ ### to host the website in local server
 app = dash.Dash(__name__,external_stylesheets=external_stylesheet) 
 
-# to make app layout: container class
+### to make app layout: container class
 app.layout=html.Div([
         html.H1('Corona Virus Pandamic',style={'color':'#33FFD4 ', 'text-align':'center'}),
         
-        # Row 1- 4 columns(cards)
+        ### Row 1- 4 columns(cards)
         html.Div([
             html.Div([
                 html.Div([
@@ -97,7 +97,7 @@ app.layout=html.Div([
                 ],className='col-md-3'),
             ],className='row'),
         
-        # Row 2
+        ### Row 2
         html.Div([
             html.Div([
                 html.Div([
@@ -121,7 +121,7 @@ app.layout=html.Div([
             ],className='row'),
     
         
-        # Row 3
+        ### Row 3
         html.Div([
             html.Div([
                 html.Div([
@@ -137,7 +137,7 @@ app.layout=html.Div([
     ],className='container',style={'background-color': '#000000 '})
 
 
-# for row 3
+### for row 3
 @app.callback(Output('bar','figure'),[Input('picker','value')])
 def update_graph(type):
     if type=='All':
@@ -160,7 +160,7 @@ def update_graph(type):
                 'layout':go.Layout(title='State Total Count',plot_bgcolor='orange')
                 }
 
-# For Row 2(1)
+### For Row 2(1)
 @app.callback(Output('graph','figure'),[Input('plot-graph','value')])
 def generate_graph(type):
     if type=='All':
@@ -180,7 +180,7 @@ def generate_graph(type):
                 'layout':go.Layout(title= "Commodities Total Count",plot_bgcolor='pink')} 
         
         
-# For row 2(2)
+### For row 2(2)
 @app.callback(Output('the_graph','figure'),[Input('my_dropdown','value')])
 def generate_graph(my_dropdown):
     piechart = px.pie(data_frame=patients,names= my_dropdown, hole=0.3) 
