@@ -85,8 +85,7 @@ app.layout=html.Div([
                         ],className='card-body')         #card-body
                     ],className='card bg-warning')       #card with bg colour
                 ],className='col-md-3'),
-            
-           
+                      
             html.Div([
                 html.Div([
                     html.Div([
@@ -136,7 +135,6 @@ app.layout=html.Div([
         
     ],className='container',style={'background-color': '#000000 '})
 
-
 ### for row 3
 @app.callback(Output('bar','figure'),[Input('picker','value')])
 def update_graph(type):
@@ -178,14 +176,12 @@ def generate_graph(type):
     if type=='Oxygen':
         return {'data':[go.Line(x=patients['Status'], y=patients['Oxygen'])], 
                 'layout':go.Layout(title= "Commodities Total Count",plot_bgcolor='pink')} 
-        
-        
+          
 ### For row 2(2)
 @app.callback(Output('the_graph','figure'),[Input('my_dropdown','value')])
 def generate_graph(my_dropdown):
     piechart = px.pie(data_frame=patients,names= my_dropdown, hole=0.3) 
     return (piechart)
-
 
 if __name__ == '__main__': 
     # to get a local host from the class
