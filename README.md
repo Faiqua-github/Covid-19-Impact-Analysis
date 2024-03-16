@@ -187,15 +187,15 @@ if __name__ == '__main__':
     # to get a local host from the class
     app.run_server(debug = True) 
 
-   ##The Dashboard
+## The Dashboard
 ![image](https://github.com/Faiqua-github/Covid-19-Impact-Analysis/assets/142328196/fb15c4d2-79ba-4674-b64b-3167eec3c22e)
 
 ## Comodities Options
 ![image](https://github.com/Faiqua-github/Covid-19-Impact-Analysis/assets/142328196/83819296-f4ff-4189-bdba-75d94f67106d)
 
-##Zones Options
+## Zones Options
 ![image](https://github.com/Faiqua-github/Covid-19-Impact-Analysis/assets/142328196/f6cab73e-5bef-4874-bbfc-6df4c5c65e1b)
 
-##Hospitalized, Deceased, Recovered Option in all states
+## Hospitalized, Deceased, Recovered Option in all states
 ![image](https://github.com/Faiqua-github/Covid-19-Impact-Analysis/assets/142328196/827f16d1-5736-4d73-a1fe-2777ad349023)
 
